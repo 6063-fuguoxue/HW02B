@@ -7,7 +7,7 @@ function setup() {
 
 function draw() {
     stroke(0);
-    // draw a square
+    // draw a rectangle to define the area
     line(0,0,width,0);
     line(0,0,0,height);
     line(width,0,width,height);
