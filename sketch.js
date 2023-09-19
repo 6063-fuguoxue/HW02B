@@ -16,25 +16,26 @@ function draw() {
     // a circle
     fill(255);
     stroke(127,70,51);
-    strokeWeight(6);
-    ellipse(240, 180, 40);
+    strokeWeight(8);
+    ellipse(265, 185, 40);
 
     // draw the bottom square
     strokeWeight(0);
     fill(0);
-    quad(120, 320, 280, 320, 280, 480, 120, 480);
+    rect(105, 305, 190);
     
     // two quads on the right hand side
     fill(233,186,46);
-    rect(290, 160, 85, 130);
+    rect(310, 160, 70, 110);
     fill(127,70,51);
-    quad(270,160,315,160,313,120,270,120);
+    quad(290,160,335,160,333,120,290,120);
 
     // blue quad
+    strokeWeight(0);
     fill(54,94,181);
     rotate(-PI/5);
-    translate(20, 10);
-    quad(-60,220,62,222,40,110,-40,110);
+    translate(35, 25);
+    quad(-80,220,87,222,55,80,-50,80);
     fill(0);
-    rect(-65,90,80,20);
+    rect(-75,55,100,25);
 }
